@@ -1,3 +1,7 @@
 from django.shortcuts import render
 
-# Create your views here.
+def post_ranking1(request):
+    return render(request, 'players/ranking.html', {})
+
+def editar_ranking(request):
+    return render(request, 'edit_player/edit.html', {})
